@@ -61,7 +61,7 @@ Answer: We should favor the competitor with greater ability.
 
 ---
 
-# Bradely-Terry-Luce
+# Bradley-Terry-Luce
 
 .cbox[
 ### One of the most popular paired comparison models is the Bradley-Terry-Luce model.
@@ -134,7 +134,7 @@ install.packages("BradleyTerry2")
 The main workhorse function for the BTL model is `BTm`. Here is the general syntax:
 
 ```{r eval = F}
-BTM(outcome, player1, player2, ...)
+BTm(outcome, player1, player2, ...)
 ```
 
 - `outcome` is with respect to `player1`
@@ -262,7 +262,7 @@ Some possibilities:
 
 It is generally thought that a team gets a boost in their win expectations when playing at home. 
 
-To introduce a home advantage covariate, we need to restructure out dataset and add a covariate for each team factor. 
+To introduce a home advantage covariate, we need to restructure our dataset and add a covariate for each team factor. 
 
 ```{r}
 data$Home <- data.frame(
@@ -389,7 +389,7 @@ data %>%
 
 # Problem: Effect of Ties
 
-- Fit a BTM + Home advantage excluding matches with ties
+- Fit a BTm + Home advantage excluding matches with ties
 
 - Determine the estimate of the home advantage
 

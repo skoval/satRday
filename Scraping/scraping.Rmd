@@ -295,7 +295,7 @@ length(data) # List of multiple tables
 
 # Example: Scraping Box Scores
 
-Using an XPATH ([XML Path Language](https://en.wikipedia.org/wiki/XPath)) can help to make our extraction more specific, though the syntax is more opaque. 
+Using an XPATH ([XML Path Language](https://en.wikipedia.org/wiki/XPath)) selector can help to make our extraction more specific, though the syntax is more opaque. 
 
 ```{r}
 # Using an XPATH selector to get the specific table of interest

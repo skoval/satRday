@@ -286,7 +286,7 @@ $$
 
 - Limit the dataset to first serves
 
-- Include serves with more than 1 match
+- Include servers with more than 1 match
 
 - Reserve some data for testing the model forecasts
 

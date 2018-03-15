@@ -78,7 +78,7 @@ When _tidying_ our goal is to end up with a row-by-column structure of our data,
 
 --
 
-- String manipulation is a common task in this processed and can be tackled with the `stringr` package
+- String manipulation is a common task in this process and can be tackled with the `stringr` package
 
 ---
 

@@ -186,7 +186,7 @@ strikeFX(decisions, geom = "tile",
 
 # Called Strike vs Other Strikes?
 
-Reading a pitch is an essential skill of batters. A `called strike` is a pitch the umpire determines to be in the strike zone but a pitched did not take a swing. Why?
+Reading a pitch is an essential skill of batters. A `called strike` is a pitch the umpire determines to be in the strike zone but the batter did not take a swing. Why?
 
 - It could be the pitch count
 
@@ -228,7 +228,7 @@ decisions <- inner_join(pitch, atbat, by = c("gameday_link", "num"))
 
 # Filtering Strikes
 
-Next, we limit the data to strikes and create out outcome variable `called` to denote `Called Strikes`.
+Next, we limit the data to strikes and create our outcome variable `called` to denote `Called Strikes`.
 
 ```{r}
 strikes <- decisions[grep("strike", ignore = T, decisions$des),]
@@ -242,7 +242,7 @@ table(strikes$called)
 
 # Animate Pitches
 
-Let's use the `animateFX` to see how the trajectories of called and swung-at strikes might differ.
+Let's use the `animateFX` function to see how the trajectories of called and swung-at strikes might differ.
 
 
 ```{r eval = FALSE}
@@ -304,7 +304,7 @@ where $X$ are our covariates and $g()$ is a link function.
 
 # GLM vs GAM
 
-The GLM will not be adequate when modelling trajectories, as we have already seen that the relationship between the physical variables an our outcome is usually complex and non-linear.
+The GLM will not be adequate when modelling trajectories, as we have already seen that the relationship between the physical variables and our outcome is usually complex and non-linear.
 
 A common alternative is the Generalized Additive Model (GAM) which has a similar form as the GLM but with an important difference:
 

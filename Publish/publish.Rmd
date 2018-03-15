@@ -269,7 +269,7 @@ install_theme('vimux/mainroad',
 
 # Example: Install Theme
 
-I can preview the site with the `serve_site`. Here is what the new theme looks like:
+I can preview the site with the `serve_site` function. Here is what the new theme looks like:
 
 ![](mainroad.png)
 
@@ -338,7 +338,7 @@ If you have your interactive session open, the site will automatically update wi
 
 # Deploying
 
-1. When you are ready to publish your site, you can use the `build_site(local = FALSE)` function, which compiled Rmd and runs Hugo to prepare your site for publication.
+1. When you are ready to publish your site, you can use the `build_site(local = FALSE)` function, which knits the Rmd files and runs Hugo to prepare your site for publication.
 
 2. You will need to select a service for hosting your site. There are many options, like:
   - [Netlify](https://www.netlify.com/)
@@ -377,7 +377,7 @@ For a simple page with your email contact, you can create a markdown file like s
 
 Comments aren't the greatest thing the Internet has given us but you may still want feedback from readers on your site
 
-- `Disquis` is a popular comment service provider
+- `Disqus` is a popular comment service provider
 
 - Many Hugo themes like Mainroad provide automatic support
 
