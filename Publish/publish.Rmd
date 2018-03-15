@@ -68,7 +68,7 @@ class: slide-img
 
 --
 
-* Authored by Yihui Xie (who is at the conference!)
+* Authored by Yihui Xie
 
 
 ---
