@@ -189,7 +189,7 @@ $$
 
 --
 
-- *Answer:* Not exactly. We have a logistic relationship, but remember that we are looking at a win expectations over the long-term and not individual game outcomes.
+- *Answer:* Not exactly. We have a logistic relationship, but remember that we are looking at win expectations over the long-term and not individual game outcomes.
 
 
 ---
@@ -331,7 +331,7 @@ plot.data %>%
 
 - We have shown that the Pythagorean implies a logistic relationship between wins and the log ratio of points won and lost 
 
-- Using data from the last season of the NBA we showed how to fit an evaluate the model for a given sport
+- Using data from the last season of the NBA we showed how to fit and evaluate the model for a given sport
 
 ---
 
